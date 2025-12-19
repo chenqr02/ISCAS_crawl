@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://epapers2.org/iscas2026/ESR/paper_details.php?paper_id="
 OUTPUT_FILE = "accepted_papers.json"
-START_ID = 500
+START_ID = 1000
 END_ID = 3500
 DELAY = 0.05  
 
