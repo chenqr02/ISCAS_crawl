@@ -22,7 +22,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
-    "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
     "Cache-Control": "max-age=0",
@@ -34,72 +33,67 @@ session = requests.Session()
 session.headers.update(HEADERS)
 
 def scrape_paper(paper_id):
-    """爬取单个论文信息"""
     url = f"{BASE_URL}{paper_id}"
     try:
-        response = session.get(url, timeout=10)
+        response = requests.get(url, headers=HEADERS, timeout=10)
+        response.encoding = 'utf-8'
         response.raise_for_status()
         content = response.text
-        
-        # 检查是否为 reject
-        if "The following errors have occurred and must be corrected" in content:
-            return None
-        
+
         soup = BeautifulSoup(content, 'html.parser')
         text = soup.get_text()
-        
-        # 提取信息
+
         paper_info = {"paper_id": paper_id}
-        
-        # Final Decision
+
         match = re.search(r'Final Decision:\s*(.+?)(?:\n|$)', text)
-        if match:
+        if match and "accept" in match.group(1).lower():
             paper_info["final_decision"] = match.group(1).strip()
-        
-        # Track ID
+        else:
+            paper_info["final_decision"] = "Missing or Reject"
+
         match = re.search(r'Track ID:\s*(.+?)(?:\n|$)', text)
         if match:
             paper_info["track_id"] = match.group(1).strip()
-        
-        # Selected Theme(s)
+
         match = re.search(r'Selected Theme\(s\):\s*(.+?)(?:\n|$)', text)
         if match:
             paper_info["selected_themes"] = match.group(1).strip()
-        
+
         return paper_info
-        
+
     except Exception as e:
         print(f"Error scraping paper {paper_id}: {e}")
         return None
 
 def main():
     accepted_papers = []
-    
+
     print(f"开始爬取 paper_id {START_ID} - {END_ID}")
-    
+
     for paper_id in range(START_ID, END_ID + 1):
         result = scrape_paper(paper_id)
-        
+
         if result:
-            accepted_papers.append(result)
-            print(f"[ACCEPT] Paper {paper_id}: {result.get('final_decision', 'N/A')}")
+            dec = result.get('final_decision', 'N/A').lower()
+            if 'accept' in dec:
+                accepted_papers.append(result)
+                print(f"[ACCEPT] Paper {paper_id}: {result.get('final_decision', 'N/A')}")
+            else:
+                print(f"[MISSING/REJECT] Paper {paper_id}")
         else:
             print(f"[REJECT/ERROR] Paper {paper_id}")
-        
-        # 每100个保存一次，防止中断丢失数据
+
         if paper_id % 100 == 0:
             with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
                 json.dump(accepted_papers, f, ensure_ascii=False, indent=2)
             print(f"--- 已保存 {len(accepted_papers)} 条记录 ---")
-        
-        # 随机延迟，避免被检测
+
         time.sleep(DELAY + random.uniform(0, 0.1))
-    
-    # 最终保存
+
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(accepted_papers, f, ensure_ascii=False, indent=2)
-    
-    print(f"\n完成! 共爬取 {len(accepted_papers)} 篇 accepted 论文")
+
+    print(f"\n完成! 共爬取 {len(accepted_papers)} 条记录")
     print(f"结果已保存到 {OUTPUT_FILE}")
 
 if __name__ == "__main__":
