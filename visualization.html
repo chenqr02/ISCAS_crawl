@@ -41,7 +41,7 @@
         .stat-card p { color: #aaa; margin-top: 5px; }
         .charts-container {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             gap: 20px;
             margin-bottom: 30px;
         }
@@ -49,6 +49,7 @@
             background: rgba(255,255,255,0.05);
             border-radius: 12px;
             padding: 20px;
+            max-height: 400px;
         }
         .chart-box h2 { margin-bottom: 15px; font-size: 1.2rem; color: #ddd; }
         .track-grid {
@@ -63,10 +64,13 @@
             text-align: center;
             font-size: 0.85rem;
             font-weight: 500;
-            transition: transform 0.2s;
+            transition: all 0.2s;
             cursor: pointer;
         }
-        .track-item:hover { transform: scale(1.05); }
+        .track-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
         .track-item.has-papers {
             background: linear-gradient(135deg, #00b894, #00cec9);
             color: #fff;
@@ -76,6 +80,55 @@
             color: #fff;
         }
         .track-item .count { font-size: 1.1rem; font-weight: bold; }
+        
+        /* Modal样式 */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            backdrop-filter: blur(5px);
+        }
+        .modal-content {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            margin: 5% auto;
+            padding: 30px;
+            border: 1px solid rgba(0,212,255,0.3);
+            border-radius: 16px;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .close:hover { color: #00d4ff; }
+        .modal h2 {
+            color: #00d4ff;
+            margin-bottom: 20px;
+        }
+        .modal-info {
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .modal-info p {
+            margin: 8px 0;
+            color: #ddd;
+        }
+        .modal-info strong {
+            color: #00d4ff;
+        }
         .section-title { font-size: 1.5rem; margin: 30px 0 15px; color: #fff; }
         .legend { display: flex; gap: 20px; margin-bottom: 15px; }
         .legend-item { display: flex; align-items: center; gap: 8px; }
@@ -97,14 +150,17 @@
         }
         th { background: rgba(0,212,255,0.2); font-weight: 600; }
         tr:hover { background: rgba(255,255,255,0.05); }
-        @media (max-width: 768px) { .charts-container { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) {
+            .charts-container { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>📊 Accepted Papers Track Distribution</h1>
         <div class="stats-grid">
-            <div class="stat-card"><h3 id="totalPapers">-</h3><p>Total Papers</p></div>
+            <div class="stat-card"><h3 id="totalPapers">-</h3><p>Total Accepted</p></div>
+            <div class="stat-card"><h3 id="acceptanceRate">-</h3><p>Acceptance Rate</p></div>
             <div class="stat-card"><h3 id="totalTracks">-</h3><p>Tracks with Papers</p></div>
             <div class="stat-card"><h3 id="missingTracks">-</h3><p>Missing Tracks</p></div>
             <div class="stat-card"><h3 id="lectureCount">-</h3><p>Lectures</p></div>
@@ -112,58 +168,197 @@
         </div>
         <div class="charts-container">
             <div class="chart-box"><h2>📈 Papers by Track (Top 20)</h2><canvas id="trackChart"></canvas></div>
-            <div class="chart-box"><h2>🎯 Decision Distribution</h2><canvas id="decisionChart"></canvas></div>
         </div>
-        <h2 class="section-title">🗂️ All Tracks Status</h2>
+        <h2 class="section-title">🗂️ All Tracks Status (点击查看详情)</h2>
         <div class="legend">
             <div class="legend-item"><div class="legend-color green"></div><span>Has Papers</span></div>
             <div class="legend-item"><div class="legend-color red"></div><span>No Papers (Missing)</span></div>
         </div>
         <div class="track-grid" id="trackGrid"></div>
-        <h2 class="section-title">❌ Missing Tracks (No Results Yet)</h2>
-        <table id="missingTable"><thead><tr><th>Track ID</th><th>Status</th></tr></thead><tbody id="missingBody"></tbody></table>
-        <h2 class="section-title">📋 Track Details</h2>
-        <table><thead><tr><th>Track ID</th><th>Total Papers</th><th>Lectures</th><th>Posters</th></tr></thead><tbody id="detailsBody"></tbody></table>
+        
+        <h2 class="section-title">❌ Missing Tracks</h2>
+        <div class="track-grid" id="missingGrid"></div>
+        
+        <!-- Modal弹窗 -->
+        <div id="trackModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalTitle">Track Details</h2>
+                <div class="modal-info" id="modalInfo"></div>
+            </div>
+        </div>
     </div>
     <script>
-    fetch('accepted_papers.json').then(r => r.json()).then(data => {
+    // 自定义排序函数：按Track ID的数字顺序排序
+    function sortTrackIds(tracks) {
+        return tracks.sort((a, b) => {
+            const aParts = a.split('.').map(Number);
+            const bParts = b.split('.').map(Number);
+            
+            // 先比较主Track号
+            if (aParts[0] !== bParts[0]) {
+                return aParts[0] - bParts[0];
+            }
+            
+            // 如果主Track号相同，比较子Track号
+            const aSubTrack = aParts[1] || 0;
+            const bSubTrack = bParts[1] || 0;
+            return aSubTrack - bSubTrack;
+        });
+    }
+    
+    // 检查一个Track是否有子Track
+    function hasSubTracks(trackId, allTrackIds) {
+        const mainTrack = trackId.split('.')[0];
+        // 如果trackId本身就是子Track（包含.），则不是母Track
+        if (trackId.includes('.')) return false;
+        // 检查是否存在以该Track号开头的子Track
+        return allTrackIds.some(id => id.startsWith(mainTrack + '.'));
+    }
+    
+    // 并行加载数据和Track列表
+    Promise.all([
+        fetch('accepted_papers.json').then(r => r.json()),
+        fetch('tracks.json').then(r => r.json())
+    ]).then(([data, tracksData]) => {
+        // 从tracks.json获取所有Track ID
+        const allTrackIds = Object.keys(tracksData);
+        
+        // 过滤规则：
+        // 1. 排除CANCELLED的Track
+        // 2. 排除有子Track的母Track（因为母Track不能投递）
+        const allExpectedTracks = sortTrackIds(
+            allTrackIds.filter(id => {
+                // 排除CANCELLED
+                if (tracksData[id].includes('CANCELLED')) return false;
+                // 排除有子Track的母Track
+                if (hasSubTracks(id, allTrackIds)) return false;
+                return true;
+            })
+        );
         const trackStats = {};
         let lectureCount = 0, posterCount = 0;
+        let minPaperId = Infinity, maxPaperId = -Infinity;
+        
         data.forEach(p => {
             const t = p.track_id;
             if (!trackStats[t]) trackStats[t] = { total: 0, lecture: 0, poster: 0 };
             trackStats[t].total++;
             if (p.final_decision.includes('Lecture')) { trackStats[t].lecture++; lectureCount++; }
             else if (p.final_decision.includes('Poster')) { trackStats[t].poster++; posterCount++; }
+            
+            // 计算paper_id范围
+            if (p.paper_id < minPaperId) minPaperId = p.paper_id;
+            if (p.paper_id > maxPaperId) maxPaperId = p.paper_id;
         });
-        const allExpectedTracks = [];
-        const ranges = {1:8,2:10,3:10,4:10,5:9,6:6,7:16,8:5,9:6,10:12,11:14,12:12,13:5,14:7,15:12};
-        for (let m = 1; m <= 15; m++) for (let s = 1; s <= (ranges[m]||5); s++) allExpectedTracks.push(`${m}.${s}`);
-        allExpectedTracks.push('16', '17');
+        
+        // 计算中稿率
+        const totalSubmissions = maxPaperId - minPaperId + 1;
+        const acceptanceRate = ((data.length / totalSubmissions) * 100).toFixed(1);
+        
         const existingTracks = Object.keys(trackStats);
         const missingTracks = allExpectedTracks.filter(t => !existingTracks.includes(t));
+        
         document.getElementById('totalPapers').textContent = data.length;
+        document.getElementById('acceptanceRate').textContent = acceptanceRate + '%';
+        document.getElementById('acceptanceRate').title = `${data.length} accepted / ${totalSubmissions} submissions (Paper ID: ${minPaperId}-${maxPaperId})`;
         document.getElementById('totalTracks').textContent = existingTracks.length;
         document.getElementById('missingTracks').textContent = missingTracks.length;
         document.getElementById('lectureCount').textContent = lectureCount;
         document.getElementById('posterCount').textContent = posterCount;
+        // Modal相关
+        const modal = document.getElementById('trackModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalInfo = document.getElementById('modalInfo');
+        const closeBtn = document.querySelector('.close');
+        
+        closeBtn.onclick = () => modal.style.display = 'none';
+        window.onclick = (e) => { if (e.target == modal) modal.style.display = 'none'; };
+        
+        function showTrackDetails(trackId) {
+            const stats = trackStats[trackId];
+            const trackName = tracksData[trackId] || 'Unknown Track';
+            
+            modalTitle.textContent = `Track ${trackId}`;
+            
+            if (stats) {
+                modalInfo.innerHTML = `
+                    <p><strong>Track Name:</strong> ${trackName}</p>
+                    <p><strong>Total Papers:</strong> ${stats.total}</p>
+                    <p><strong>Lectures:</strong> ${stats.lecture}</p>
+                    <p><strong>Posters:</strong> ${stats.poster}</p>
+                `;
+            } else {
+                modalInfo.innerHTML = `
+                    <p><strong>Track Name:</strong> ${trackName}</p>
+                    <p style="color:#e17055;"><strong>Status:</strong> ⚠️ No papers accepted yet</p>
+                `;
+            }
+            
+            modal.style.display = 'block';
+        }
+        
+        // 渲染All Tracks Status
         const trackGrid = document.getElementById('trackGrid');
         allExpectedTracks.forEach(track => {
             const div = document.createElement('div');
             const has = trackStats[track];
             div.className = `track-item ${has ? 'has-papers' : 'no-papers'}`;
             div.innerHTML = `<div>${track}</div><div class="count">${has ? trackStats[track].total : '✗'}</div>`;
+            div.onclick = () => showTrackDetails(track);
             trackGrid.appendChild(div);
         });
-        const missingBody = document.getElementById('missingBody');
-        if (missingTracks.length === 0) missingBody.innerHTML = '<tr><td colspan="2">All tracks have papers!</td></tr>';
-        else missingTracks.forEach(t => { const tr = document.createElement('tr'); tr.innerHTML = `<td>${t}</td><td style="color:#e17055">⚠️ No results yet</td>`; missingBody.appendChild(tr); });
-        const detailsBody = document.getElementById('detailsBody');
+        
+        // 渲染Missing Tracks网格
+        const missingGrid = document.getElementById('missingGrid');
+        if (missingTracks.length === 0) {
+            missingGrid.innerHTML = '<p style="color:#00b894;text-align:center;padding:20px;">🎉 All tracks have papers!</p>';
+        } else {
+            missingTracks.forEach(track => {
+                const div = document.createElement('div');
+                div.className = 'track-item no-papers';
+                div.innerHTML = `<div>${track}</div><div class="count">✗</div>`;
+                div.onclick = () => showTrackDetails(track);
+                missingGrid.appendChild(div);
+            });
+        }
+        
+        // 准备图表数据
         const sorted = Object.entries(trackStats).sort((a, b) => b[1].total - a[1].total);
-        sorted.forEach(([t, s]) => { const tr = document.createElement('tr'); tr.innerHTML = `<td>${t}</td><td>${s.total}</td><td>${s.lecture}</td><td>${s.poster}</td>`; detailsBody.appendChild(tr); });
         const top20 = sorted.slice(0, 20);
-        new Chart(document.getElementById('trackChart'), { type: 'bar', data: { labels: top20.map(t => t[0]), datasets: [{ label: 'Papers', data: top20.map(t => t[1].total), backgroundColor: 'rgba(0,212,255,0.7)', borderColor: 'rgba(0,212,255,1)', borderWidth: 1 }] }, options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { color: '#aaa' }, grid: { color: 'rgba(255,255,255,0.1)' } }, x: { ticks: { color: '#aaa' }, grid: { color: 'rgba(255,255,255,0.1)' } } } } });
-        new Chart(document.getElementById('decisionChart'), { type: 'doughnut', data: { labels: ['Lecture', 'Poster'], datasets: [{ data: [lectureCount, posterCount], backgroundColor: ['rgba(0,212,255,0.8)', 'rgba(123,44,191,0.8)'], borderWidth: 0 }] }, options: { responsive: true, plugins: { legend: { position: 'bottom', labels: { color: '#fff' } } } } });
+        
+        // Bar Chart - Papers by Track
+        new Chart(document.getElementById('trackChart'), {
+            type: 'bar',
+            data: {
+                labels: top20.map(t => t[0]),
+                datasets: [{
+                    label: 'Papers',
+                    data: top20.map(t => t[1].total),
+                    backgroundColor: 'rgba(0,212,255,0.7)',
+                    borderColor: 'rgba(0,212,255,1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: { color: '#aaa', font: { size: 11 } },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    },
+                    x: {
+                        ticks: { color: '#aaa', font: { size: 11 } },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
     }).catch(e => { console.error(e); document.body.innerHTML = '<h1 style="color:red;text-align:center;margin-top:50px">Error loading data</h1>'; });
     </script>
 </body>

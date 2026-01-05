@@ -48,6 +48,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1022,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.7",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1024,
     "final_decision": "Accept as Poster",
     "track_id": "1.8",
@@ -90,6 +96,12 @@
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 1039,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.8",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1041,
     "final_decision": "Accept as Lecture",
     "track_id": "2.2",
@@ -120,8 +132,14 @@
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
-    "paper_id": 1047,
+    "paper_id": 1046,
     "final_decision": "Accept as Poster",
+    "track_id": "6.8",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 1047,
+    "final_decision": "Accept as Lecture",
     "track_id": "2.4",
     "selected_themes": "AI in Circuits and Systems"
   },
@@ -138,16 +156,22 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1053,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.9",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1054,
     "final_decision": "Accept as Poster",
     "track_id": "3.8",
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
-    "paper_id": 1056,
+    "paper_id": 1057,
     "final_decision": "Accept as Poster",
-    "track_id": "13.5",
-    "selected_themes": "AI in Circuits and Systems"
+    "track_id": "12.11",
+    "selected_themes": "None"
   },
   {
     "paper_id": 1058,
@@ -157,7 +181,7 @@
   },
   {
     "paper_id": 1059,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.10",
     "selected_themes": "None"
   },
@@ -198,10 +222,22 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1069,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.8",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1073,
     "final_decision": "Accept as Poster",
     "track_id": "16",
     "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 1077,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 1078,
@@ -216,6 +252,18 @@
     "selected_themes": "Circuits & Systems for 6G Communication"
   },
   {
+    "paper_id": 1080,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1081,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.1",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1082,
     "final_decision": "Accept as Lecture",
     "track_id": "1.8",
@@ -226,6 +274,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "3.2",
     "selected_themes": "Circuits & Systems for 6G Communication"
+  },
+  {
+    "paper_id": 1085,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 1087,
@@ -241,7 +295,7 @@
   },
   {
     "paper_id": 1092,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "15.12",
     "selected_themes": "None"
   },
@@ -289,7 +343,7 @@
   },
   {
     "paper_id": 1109,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "7.16",
     "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
   },
@@ -298,6 +352,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "1.3",
     "selected_themes": "Quantum Computing  AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1111,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.7",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 1117,
@@ -336,6 +396,12 @@
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 1127,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.6",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1132,
     "final_decision": "Accept as Lecture",
     "track_id": "2.10",
@@ -372,14 +438,8 @@
     "selected_themes": "None"
   },
   {
-    "paper_id": 1146,
-    "final_decision": "Accept as Lecture",
-    "track_id": "10.3",
-    "selected_themes": "None"
-  },
-  {
     "paper_id": 1147,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "12.5",
     "selected_themes": "None"
   },
@@ -391,7 +451,7 @@
   },
   {
     "paper_id": 1154,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "7.1",
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
@@ -408,16 +468,16 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1158,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.5",
+    "selected_themes": "Circuits & Systems for 6G Communication"
+  },
+  {
     "paper_id": 1163,
     "final_decision": "Accept as Poster",
     "track_id": "14.2",
     "selected_themes": "AI in Circuits and Systems"
-  },
-  {
-    "paper_id": 1165,
-    "final_decision": "Accept as Poster",
-    "track_id": "12.12",
-    "selected_themes": "None"
   },
   {
     "paper_id": 1168,
@@ -427,7 +487,7 @@
   },
   {
     "paper_id": 1170,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "5.7",
     "selected_themes": "Quantum Computing"
   },
@@ -474,6 +534,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1182,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1183,
     "final_decision": "Accept as Poster",
     "track_id": "4.2",
@@ -481,9 +547,15 @@
   },
   {
     "paper_id": 1184,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "5.7",
     "selected_themes": "Quantum Computing"
+  },
+  {
+    "paper_id": 1185,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.5",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 1186,
@@ -546,10 +618,28 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1213,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.10",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1215,
     "final_decision": "Accept as Lecture",
     "track_id": "2.10",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1216,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.7",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1219,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.2",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1220,
@@ -559,7 +649,7 @@
   },
   {
     "paper_id": 1222,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "3.8",
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
@@ -588,14 +678,20 @@
     "selected_themes": "Circuits & Systems for 6G Communication"
   },
   {
+    "paper_id": 1227,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1233,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.4",
     "selected_themes": "None"
   },
   {
     "paper_id": 1234,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "7.5",
     "selected_themes": "None"
   },
@@ -604,6 +700,18 @@
     "final_decision": "Accept as Poster",
     "track_id": "4.2",
     "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 1236,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.9",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1237,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "None"
   },
   {
     "paper_id": 1239,
@@ -631,15 +739,21 @@
   },
   {
     "paper_id": 1249,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "5.7",
     "selected_themes": "Quantum Computing"
   },
   {
     "paper_id": 1250,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "12.1",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1252,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.1",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1255,
@@ -673,7 +787,7 @@
   },
   {
     "paper_id": 1263,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "5.1",
     "selected_themes": "None"
   },
@@ -685,7 +799,7 @@
   },
   {
     "paper_id": 1268,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.8",
     "selected_themes": "AI in Circuits and Systems"
   },
@@ -720,6 +834,18 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 1278,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.9",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1279,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.6",
+    "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
     "paper_id": 1280,
     "final_decision": "Accept as Lecture",
     "track_id": "1.3",
@@ -732,16 +858,16 @@
     "selected_themes": "Circuits & Systems for 6G Communication"
   },
   {
-    "paper_id": 1284,
-    "final_decision": "Accept as Lecture",
-    "track_id": "2.10",
-    "selected_themes": "Security & Trust in Circuits & Systems  Circuits & Systems for Medicine & Healthcare"
-  },
-  {
     "paper_id": 1285,
     "final_decision": "Accept as Poster",
     "track_id": "3.1",
     "selected_themes": "Circuits & Systems for 6G Communication"
+  },
+  {
+    "paper_id": 1286,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "None"
   },
   {
     "paper_id": 1287,
@@ -756,6 +882,18 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1291,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.6",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 1292,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.4",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1296,
     "final_decision": "Accept as Lecture",
     "track_id": "2.1",
@@ -768,10 +906,10 @@
     "selected_themes": "None"
   },
   {
-    "paper_id": 1302,
-    "final_decision": "Accept as Poster",
-    "track_id": "10.7",
-    "selected_themes": "Circuits & Systems for 6G Communication"
+    "paper_id": 1303,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.8",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1310,
@@ -798,6 +936,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 1316,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.2",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1317,
     "final_decision": "Accept as Poster",
     "track_id": "10.5",
@@ -813,6 +957,12 @@
     "paper_id": 1319,
     "final_decision": "Accept as Lecture",
     "track_id": "14.1",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1322,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.3",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
@@ -835,7 +985,7 @@
   },
   {
     "paper_id": 1332,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.5",
     "selected_themes": "None"
   },
@@ -924,8 +1074,14 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1366,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.5",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1367,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.2",
     "selected_themes": "None"
   },
@@ -954,9 +1110,33 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1376,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.3",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 1377,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.17",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1379,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.6",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1380,
     "final_decision": "Accept as Lecture",
     "track_id": "14.1",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1383,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.2",
     "selected_themes": "None"
   },
   {
@@ -1002,12 +1182,6 @@
     "selected_themes": "None"
   },
   {
-    "paper_id": 1399,
-    "final_decision": "Accept as Lecture",
-    "track_id": "10.9",
-    "selected_themes": "AI in Circuits and Systems"
-  },
-  {
     "paper_id": 1400,
     "final_decision": "Accept as Poster",
     "track_id": "1.1",
@@ -1020,14 +1194,32 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1402,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.3",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1403,
     "final_decision": "Accept as Lecture",
     "track_id": "5.5",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
-    "paper_id": 1406,
+    "paper_id": 1404,
     "final_decision": "Accept as Lecture",
+    "track_id": "15.14",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1405,
+    "final_decision": "Accept as Poster",
+    "track_id": "15.11",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1406,
+    "final_decision": "Accept as Poster",
     "track_id": "7.11",
     "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
   },
@@ -1036,6 +1228,12 @@
     "final_decision": "Accept as Poster",
     "track_id": "12.1",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 1415,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.14",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 1416,
@@ -1074,6 +1272,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 1431,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.1",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1435,
     "final_decision": "Accept as Lecture",
     "track_id": "1.3",
@@ -1087,7 +1291,7 @@
   },
   {
     "paper_id": 1441,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.10",
     "selected_themes": "AI in Circuits and Systems"
   },
@@ -1230,6 +1434,18 @@
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
+    "paper_id": 1494,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.4",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1497,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.3",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1498,
     "final_decision": "Accept as Lecture",
     "track_id": "2.9",
@@ -1249,7 +1465,7 @@
   },
   {
     "paper_id": 1505,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.10",
     "selected_themes": "AI in Circuits and Systems"
   },
@@ -1260,10 +1476,28 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1507,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.6",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1508,
     "final_decision": "Accept as Poster",
     "track_id": "11.14",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1510,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1512,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.10",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1514,
@@ -1278,10 +1512,28 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1516,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.9",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1517,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1522,
     "final_decision": "Accept as Poster",
     "track_id": "13.3",
     "selected_themes": "Circuits & Systems for 6G Communication"
+  },
+  {
+    "paper_id": 1524,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 1527,
@@ -1309,7 +1561,7 @@
   },
   {
     "paper_id": 1536,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "7.14",
     "selected_themes": "None"
   },
@@ -1326,6 +1578,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 1540,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.3",
+    "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
     "paper_id": 1542,
     "final_decision": "Accept as Poster",
     "track_id": "7.10",
@@ -1333,7 +1591,7 @@
   },
   {
     "paper_id": 1544,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.9",
     "selected_themes": "None"
   },
@@ -1380,6 +1638,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 1561,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.6",
+    "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
+  },
+  {
     "paper_id": 1562,
     "final_decision": "Accept as Lecture",
     "track_id": "1.1",
@@ -1387,15 +1651,9 @@
   },
   {
     "paper_id": 1563,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.10",
     "selected_themes": "None"
-  },
-  {
-    "paper_id": 1564,
-    "final_decision": "Accept as Poster",
-    "track_id": "7.10",
-    "selected_themes": "Circuits & Systems for 6G Communication"
   },
   {
     "paper_id": 1565,
@@ -1422,10 +1680,28 @@
     "selected_themes": "Circuits & Systems for 6G Communication"
   },
   {
+    "paper_id": 1573,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.9",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1574,
     "final_decision": "Accept as Lecture",
     "track_id": "2.10",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 1575,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1580,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 1582,
@@ -1476,16 +1752,16 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1592,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.14",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1593,
     "final_decision": "Accept as Poster",
     "track_id": "1.8",
     "selected_themes": "None"
-  },
-  {
-    "paper_id": 1594,
-    "final_decision": "Accept as Poster",
-    "track_id": "7.16",
-    "selected_themes": "Circuits & Systems for 6G Communication"
   },
   {
     "paper_id": 1595,
@@ -1518,6 +1794,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1600,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.8",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1601,
     "final_decision": "Accept as Lecture",
     "track_id": "4.1",
@@ -1548,6 +1830,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1613,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.5",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1617,
     "final_decision": "Accept as Lecture",
     "track_id": "1.3",
@@ -1563,12 +1851,6 @@
     "paper_id": 1621,
     "final_decision": "Accept as Poster",
     "track_id": "1.3",
-    "selected_themes": "None"
-  },
-  {
-    "paper_id": 1622,
-    "final_decision": "Accept as Poster",
-    "track_id": "10.6",
     "selected_themes": "None"
   },
   {
@@ -1590,6 +1872,18 @@
     "selected_themes": "Quantum Computing"
   },
   {
+    "paper_id": 1633,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.8",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 1634,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1635,
     "final_decision": "Accept as Lecture",
     "track_id": "14.1",
@@ -1609,9 +1903,15 @@
   },
   {
     "paper_id": 1639,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.11",
     "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 1640,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.3",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1642,
@@ -1645,8 +1945,14 @@
   },
   {
     "paper_id": 1647,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.8",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1648,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.2",
     "selected_themes": "None"
   },
   {
@@ -1669,7 +1975,7 @@
   },
   {
     "paper_id": 1656,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.10",
     "selected_themes": "None"
   },
@@ -1680,9 +1986,21 @@
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 1659,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.17",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1660,
     "final_decision": "Accept as Poster",
     "track_id": "11.8",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1661,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
@@ -1698,16 +2016,28 @@
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
+    "paper_id": 1664,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.8",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1667,
     "final_decision": "Accept as Lecture",
     "track_id": "4.1",
     "selected_themes": "None"
   },
   {
-    "paper_id": 1668,
+    "paper_id": 1676,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.2",
+    "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 1677,
     "final_decision": "Accept as Poster",
-    "track_id": "10.11",
-    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+    "track_id": "8.1",
+    "selected_themes": "None"
   },
   {
     "paper_id": 1678,
@@ -1734,10 +2064,28 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1684,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.8",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1689,
     "final_decision": "Accept as Poster",
     "track_id": "1.8",
     "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 1690,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.4",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1691,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1692,
@@ -1776,18 +2124,6 @@
     "selected_themes": "Circuits & Systems for 6G Communication  AI in Circuits and Systems"
   },
   {
-    "paper_id": 1705,
-    "final_decision": "Accept as Poster",
-    "track_id": "10.8",
-    "selected_themes": "None"
-  },
-  {
-    "paper_id": 1706,
-    "final_decision": "Accept as Poster",
-    "track_id": "12.11",
-    "selected_themes": "AI in Circuits and Systems"
-  },
-  {
     "paper_id": 1708,
     "final_decision": "Accept as Lecture",
     "track_id": "10.8",
@@ -1806,6 +2142,12 @@
     "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 1713,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.5",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1714,
     "final_decision": "Accept as Poster",
     "track_id": "2.1",
@@ -1819,8 +2161,14 @@
   },
   {
     "paper_id": 1721,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.1",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1723,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
@@ -1837,15 +2185,9 @@
   },
   {
     "paper_id": 1728,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "10.12",
     "selected_themes": "None"
-  },
-  {
-    "paper_id": 1729,
-    "final_decision": "Accept as Poster",
-    "track_id": "10.11",
-    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1730,
@@ -1884,6 +2226,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 1740,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1743,
     "final_decision": "Accept as Lecture",
     "track_id": "5.5",
@@ -1894,6 +2242,12 @@
     "final_decision": "Accept as Poster",
     "track_id": "4.8",
     "selected_themes": "Circuits & Systems for 6G Communication"
+  },
+  {
+    "paper_id": 1746,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.4",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 1747,
@@ -1908,6 +2262,18 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1750,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.3",
+    "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 1752,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.10",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1753,
     "final_decision": "Accept as Lecture",
     "track_id": "1.8",
@@ -1915,7 +2281,7 @@
   },
   {
     "paper_id": 1754,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "7.7",
     "selected_themes": "None"
   },
@@ -1944,6 +2310,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 1765,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1766,
     "final_decision": "Accept as Poster",
     "track_id": "1.8",
@@ -1951,9 +2323,33 @@
   },
   {
     "paper_id": 1767,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "7.14",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 1768,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.2",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 1770,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.2",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1771,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.6",
+    "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 1772,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.8",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1773,
@@ -1962,10 +2358,28 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 1774,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.3",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1776,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
+  },
+  {
     "paper_id": 1777,
     "final_decision": "Accept as Poster",
     "track_id": "12.9",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 1778,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1779,
@@ -1983,6 +2397,12 @@
     "paper_id": 1782,
     "final_decision": "Accept as Lecture",
     "track_id": "2.9",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1785,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.2",
     "selected_themes": "None"
   },
   {
@@ -2008,6 +2428,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "3.2",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 1800,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 1801,
@@ -2046,6 +2472,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 1808,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.17",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 1811,
     "final_decision": "Accept as Poster",
     "track_id": "2.10",
@@ -2059,7 +2491,7 @@
   },
   {
     "paper_id": 1815,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.4",
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
@@ -2068,6 +2500,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "13.3",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1819,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.3",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1820,
@@ -2083,13 +2521,13 @@
   },
   {
     "paper_id": 1825,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.5",
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
     "paper_id": 1827,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.10",
     "selected_themes": "None"
   },
@@ -2100,14 +2538,14 @@
     "selected_themes": "None"
   },
   {
-    "paper_id": 1829,
-    "final_decision": "Accept as Poster",
-    "track_id": "7.11",
-    "selected_themes": "None"
+    "paper_id": 1830,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.1",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1831,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.8",
     "selected_themes": "None"
   },
@@ -2118,10 +2556,10 @@
     "selected_themes": "None"
   },
   {
-    "paper_id": 1837,
+    "paper_id": 1836,
     "final_decision": "Accept as Lecture",
-    "track_id": "10.6",
-    "selected_themes": "Circuits & Systems for 6G Communication  Security & Trust in Circuits & Systems"
+    "track_id": "15.1",
+    "selected_themes": "None"
   },
   {
     "paper_id": 1840,
@@ -2142,6 +2580,12 @@
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 1846,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.7",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1849,
     "final_decision": "Accept as Lecture",
     "track_id": "4.12",
@@ -2160,6 +2604,18 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1852,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.4",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 1855,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.7",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1860,
     "final_decision": "Accept as Lecture",
     "track_id": "2.9",
@@ -2170,6 +2626,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "1.1",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 1864,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.4",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 1867,
@@ -2190,6 +2652,12 @@
     "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
+    "paper_id": 1873,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.4",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1876,
     "final_decision": "Accept as Lecture",
     "track_id": "12.9",
@@ -2197,7 +2665,7 @@
   },
   {
     "paper_id": 1877,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.10",
     "selected_themes": "Security & Trust in Circuits & Systems  Circuits & Systems for Medicine & Healthcare"
   },
@@ -2209,15 +2677,21 @@
   },
   {
     "paper_id": 1882,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "3.8",
     "selected_themes": "None"
   },
   {
     "paper_id": 1883,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "7.14",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 1884,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.6",
+    "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
     "paper_id": 1886,
@@ -2232,10 +2706,34 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1888,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.9",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1889,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1890,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.4",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1891,
     "final_decision": "Accept as Lecture",
     "track_id": "1.5",
     "selected_themes": "Circuits & Systems for 6G Communication  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 1892,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.4",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 1893,
@@ -2245,7 +2743,7 @@
   },
   {
     "paper_id": 1896,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.11",
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
@@ -2263,7 +2761,7 @@
   },
   {
     "paper_id": 1899,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.4",
     "selected_themes": "AI in Circuits and Systems"
   },
@@ -2304,9 +2802,21 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 1910,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.8",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1912,
     "final_decision": "Accept as Lecture",
     "track_id": "2.4",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1916,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
@@ -2334,6 +2844,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1931,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1933,
     "final_decision": "Accept as Poster",
     "track_id": "2.4",
@@ -2358,15 +2874,33 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1939,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.9",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1943,
     "final_decision": "Accept as Poster",
     "track_id": "5.4",
     "selected_themes": "None"
   },
   {
+    "paper_id": 1944,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.7",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1945,
     "final_decision": "Accept as Lecture",
     "track_id": "14.1",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1946,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.8",
     "selected_themes": "None"
   },
   {
@@ -2376,10 +2910,22 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1949,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.8",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1951,
     "final_decision": "Accept as Lecture",
     "track_id": "9.6",
     "selected_themes": "Circuits & Systems for 6G Communication  AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 1952,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.8",
+    "selected_themes": "None"
   },
   {
     "paper_id": 1953,
@@ -2424,6 +2970,12 @@
     "selected_themes": "Quantum Computing  Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 1965,
+    "final_decision": "Accept as Poster",
+    "track_id": "12.11",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 1967,
     "final_decision": "Accept as Poster",
     "track_id": "1.8",
@@ -2433,6 +2985,12 @@
     "paper_id": 1968,
     "final_decision": "Accept as Lecture",
     "track_id": "7.13",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1969,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.4",
     "selected_themes": "None"
   },
   {
@@ -2460,6 +3018,12 @@
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 1978,
+    "final_decision": "Accept as Poster",
+    "track_id": "15.5",
+    "selected_themes": "Circuits & Systems for 6G Communication"
+  },
+  {
     "paper_id": 1979,
     "final_decision": "Accept as Lecture",
     "track_id": "11.1",
@@ -2473,7 +3037,7 @@
   },
   {
     "paper_id": 1988,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "3.2",
     "selected_themes": "None"
   },
@@ -2484,9 +3048,21 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 1992,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.4",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 1993,
     "final_decision": "Accept as Poster",
     "track_id": "1.2",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 1995,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.8",
     "selected_themes": "None"
   },
   {
@@ -2508,8 +3084,20 @@
     "selected_themes": "Quantum Computing  Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 2004,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.7",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2005,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.6",
+    "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
     "paper_id": 2007,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.7",
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
@@ -2518,6 +3106,12 @@
     "final_decision": "Accept as Poster",
     "track_id": "9.7",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2010,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.7",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 2011,
@@ -2542,6 +3136,12 @@
     "final_decision": "Accept as Poster",
     "track_id": "3.1",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2021,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.4",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 2023,
@@ -2586,6 +3186,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2034,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.1",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2035,
     "final_decision": "Accept as Poster",
     "track_id": "7.10",
@@ -2616,14 +3222,8 @@
     "selected_themes": "None"
   },
   {
-    "paper_id": 2043,
-    "final_decision": "Accept as Poster",
-    "track_id": "10.8",
-    "selected_themes": "None"
-  },
-  {
     "paper_id": 2044,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "7.14",
     "selected_themes": "None"
   },
@@ -2644,6 +3244,18 @@
     "final_decision": "Accept as Lecture",
     "track_id": "2.7",
     "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 2051,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2052,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.1",
+    "selected_themes": "None"
   },
   {
     "paper_id": 2053,
@@ -2719,15 +3331,9 @@
   },
   {
     "paper_id": 2072,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "3.9",
     "selected_themes": "None"
-  },
-  {
-    "paper_id": 2073,
-    "final_decision": "Accept as Lecture",
-    "track_id": "10.12",
-    "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
     "paper_id": 2075,
@@ -2758,6 +3364,18 @@
     "final_decision": "Accept as Poster",
     "track_id": "3.6",
     "selected_themes": "Circuits & Systems for 6G Communication  AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2081,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.4",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2083,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.8",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2086,
@@ -2821,7 +3439,7 @@
   },
   {
     "paper_id": 2102,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.9",
     "selected_themes": "None"
   },
@@ -2832,8 +3450,26 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2105,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.4",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2106,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.4",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2107,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.1",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 2111,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.11",
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
@@ -2842,6 +3478,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "2.4",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2115,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.2",
+    "selected_themes": "Quantum Computing  AI in Circuits and Systems"
   },
   {
     "paper_id": 2116,
@@ -2862,6 +3504,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2124,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.10",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2125,
     "final_decision": "Accept as Lecture",
     "track_id": "1.7",
@@ -2872,12 +3520,6 @@
     "final_decision": "Accept as Poster",
     "track_id": "1.3",
     "selected_themes": "None"
-  },
-  {
-    "paper_id": 2128,
-    "final_decision": "Accept as Poster",
-    "track_id": "10.1",
-    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2129,
@@ -2892,10 +3534,28 @@
     "selected_themes": "Quantum Computing"
   },
   {
+    "paper_id": 2132,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2136,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.3",
+    "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
     "paper_id": 2137,
     "final_decision": "Accept as Poster",
     "track_id": "1.2",
     "selected_themes": "Circuits & Systems for 6G Communication"
+  },
+  {
+    "paper_id": 2138,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.9",
+    "selected_themes": "None"
   },
   {
     "paper_id": 2139,
@@ -2922,6 +3582,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2144,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.5",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2147,
     "final_decision": "Accept as Poster",
     "track_id": "1.3",
@@ -2935,7 +3601,7 @@
   },
   {
     "paper_id": 2149,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.4",
     "selected_themes": "None"
   },
@@ -2974,6 +3640,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "2.2",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2159,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.3",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 2161,
@@ -3018,6 +3690,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2170,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.10",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2171,
     "final_decision": "Accept as Lecture",
     "track_id": "4.12",
@@ -3036,12 +3714,6 @@
     "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
-    "paper_id": 2176,
-    "final_decision": "Accept as Poster",
-    "track_id": "7.15",
-    "selected_themes": "None"
-  },
-  {
     "paper_id": 2180,
     "final_decision": "Accept as Poster",
     "track_id": "2.9",
@@ -3058,6 +3730,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "1.2",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2184,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
+    "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
     "paper_id": 2185,
@@ -3102,6 +3780,30 @@
     "selected_themes": "Circuits & Systems for 6G Communication  Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 2194,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.3",
+    "selected_themes": "Security & Trust in Circuits & Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2196,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.1",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 2199,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2202,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.7",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2205,
     "final_decision": "Accept as Poster",
     "track_id": "14.3",
@@ -3138,16 +3840,28 @@
     "selected_themes": "Circuits & Systems for 6G Communication  AI in Circuits and Systems"
   },
   {
+    "paper_id": 2216,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.2",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 2217,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.3",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2218,
     "final_decision": "Accept as Poster",
     "track_id": "2.4",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
-    "paper_id": 2224,
+    "paper_id": 2222,
     "final_decision": "Accept as Lecture",
-    "track_id": "10.6",
-    "selected_themes": "None"
+    "track_id": "6.8",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2227,
@@ -3186,10 +3900,28 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2237,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.4",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2239,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 2243,
     "final_decision": "Accept as Poster",
     "track_id": "1.1",
     "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 2245,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.7",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2246,
@@ -3202,6 +3934,18 @@
     "final_decision": "Accept as Poster",
     "track_id": "2.7",
     "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 2248,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.12",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2249,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.2",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2251,
@@ -3228,6 +3972,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2262,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.3",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2264,
     "final_decision": "Accept as Poster",
     "track_id": "5.5",
@@ -3238,6 +3988,18 @@
     "final_decision": "Accept as Poster",
     "track_id": "1.1",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2269,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.1",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 2271,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.3",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 2273,
@@ -3277,7 +4039,7 @@
   },
   {
     "paper_id": 2288,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.4",
     "selected_themes": "None"
   },
@@ -3324,6 +4086,12 @@
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
+    "paper_id": 2298,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2300,
     "final_decision": "Accept as Poster",
     "track_id": "14.2",
@@ -3343,7 +4111,7 @@
   },
   {
     "paper_id": 2311,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "12.11",
     "selected_themes": "None"
   },
@@ -3378,8 +4146,14 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2319,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.10",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2321,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.4",
     "selected_themes": "AI in Circuits and Systems"
   },
@@ -3403,7 +4177,7 @@
   },
   {
     "paper_id": 2331,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "12.10",
     "selected_themes": "None"
   },
@@ -3414,9 +4188,21 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2333,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.8",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2336,
     "final_decision": "Accept as Lecture",
     "track_id": "4.7",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 2342,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
     "selected_themes": "None"
   },
   {
@@ -3430,6 +4216,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "5.8",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2346,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.1",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2347,
@@ -3450,16 +4242,22 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2352,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.4",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2353,
     "final_decision": "Accept as Poster",
     "track_id": "1.1",
     "selected_themes": "Circuits & Systems for 6G Communication"
   },
   {
-    "paper_id": 2357,
-    "final_decision": "Accept as Poster",
-    "track_id": "7.13",
-    "selected_themes": "AI in Circuits and Systems"
+    "paper_id": 2355,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.2",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2358,
@@ -3474,6 +4272,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2362,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.3",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2363,
     "final_decision": "Accept as Lecture",
     "track_id": "2.2",
@@ -3486,10 +4290,22 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2367,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.9",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2370,
     "final_decision": "Accept as Poster",
     "track_id": "1.5",
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2372,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.7",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2374,
@@ -3498,10 +4314,22 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2378,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.2",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2381,
     "final_decision": "Accept as Poster",
     "track_id": "11.2",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2382,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.1",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 2384,
@@ -3540,10 +4368,22 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2398,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.6",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2399,
     "final_decision": "Accept as Lecture",
     "track_id": "1.2",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2401,
+    "final_decision": "Accept as Poster",
+    "track_id": "2.9",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 2402,
@@ -3618,10 +4458,22 @@
     "selected_themes": "Circuits & Systems for 6G Communication"
   },
   {
+    "paper_id": 2434,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.6",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2436,
     "final_decision": "Accept as Lecture",
     "track_id": "4.4",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2437,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.9",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2438,
@@ -3631,7 +4483,7 @@
   },
   {
     "paper_id": 2439,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.10",
     "selected_themes": "None"
   },
@@ -3639,6 +4491,12 @@
     "paper_id": 2446,
     "final_decision": "Accept as Poster",
     "track_id": "14.1",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2448,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.4",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
@@ -3666,6 +4524,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2459,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.11",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2460,
     "final_decision": "Accept as Poster",
     "track_id": "5.5",
@@ -3673,9 +4537,15 @@
   },
   {
     "paper_id": 2461,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "10.10",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2462,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.4",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 2465,
@@ -3720,22 +4590,34 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2476,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 2477,
     "final_decision": "Accept as Poster",
     "track_id": "1.7",
     "selected_themes": "None"
   },
   {
-    "paper_id": 2484,
-    "final_decision": "Accept as Poster",
-    "track_id": "7.16",
-    "selected_themes": "Circuits & Systems for 6G Communication"
+    "paper_id": 2479,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.1",
+    "selected_themes": "None"
   },
   {
     "paper_id": 2485,
     "final_decision": "Accept as Poster",
     "track_id": "10.10",
     "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 2486,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.1",
+    "selected_themes": "None"
   },
   {
     "paper_id": 2487,
@@ -3748,6 +4630,12 @@
     "final_decision": "Accept as Poster",
     "track_id": "4.2",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2490,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.10",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2491,
@@ -3768,6 +4656,12 @@
     "selected_themes": "Circuits & Systems for 6G Communication"
   },
   {
+    "paper_id": 2496,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.3",
+    "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
     "paper_id": 2502,
     "final_decision": "Accept as Lecture",
     "track_id": "1.1",
@@ -3786,9 +4680,21 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2507,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 2509,
     "final_decision": "Accept as Lecture",
     "track_id": "1.8",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2510,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.17",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
@@ -3799,7 +4705,7 @@
   },
   {
     "paper_id": 2512,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "12.11",
     "selected_themes": "AI in Circuits and Systems"
   },
@@ -3808,12 +4714,6 @@
     "final_decision": "Accept as Lecture",
     "track_id": "1.1",
     "selected_themes": "None"
-  },
-  {
-    "paper_id": 2516,
-    "final_decision": "Accept as Lecture",
-    "track_id": "10.4",
-    "selected_themes": "Circuits & Systems for 6G Communication  AI in Circuits and Systems"
   },
   {
     "paper_id": 2518,
@@ -3835,7 +4735,7 @@
   },
   {
     "paper_id": 2525,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "7.10",
     "selected_themes": "None"
   },
@@ -3852,6 +4752,12 @@
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 2528,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2530,
     "final_decision": "Accept as Lecture",
     "track_id": "1.2",
@@ -3862,6 +4768,12 @@
     "final_decision": "Accept as Poster",
     "track_id": "4.7",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2534,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.3",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2537,
@@ -3930,10 +4842,10 @@
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
-    "paper_id": 2553,
-    "final_decision": "Accept as Lecture",
-    "track_id": "7.14",
-    "selected_themes": "None"
+    "paper_id": 2551,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.6",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2555,
@@ -4008,6 +4920,18 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2583,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.8",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2584,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 2585,
     "final_decision": "Accept as Lecture",
     "track_id": "11.9",
@@ -4050,12 +4974,6 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
-    "paper_id": 2597,
-    "final_decision": "Accept as Lecture",
-    "track_id": "10.3",
-    "selected_themes": "None"
-  },
-  {
     "paper_id": 2598,
     "final_decision": "Accept as Poster",
     "track_id": "14.2",
@@ -4074,10 +4992,22 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2603,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.6",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2605,
     "final_decision": "Accept as Lecture",
     "track_id": "7.6",
     "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 2607,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.5",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2609,
@@ -4146,6 +5076,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2623,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.3",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2625,
     "final_decision": "Accept as Lecture",
     "track_id": "3.8",
@@ -4177,7 +5113,7 @@
   },
   {
     "paper_id": 2633,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "13.5",
     "selected_themes": "None"
   },
@@ -4189,7 +5125,7 @@
   },
   {
     "paper_id": 2636,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.2",
     "selected_themes": "None"
   },
@@ -4200,10 +5136,22 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2640,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.1",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2642,
     "final_decision": "Accept as Poster",
     "track_id": "1.3",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2644,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.14",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 2645,
@@ -4224,6 +5172,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2650,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 2651,
     "final_decision": "Accept as Poster",
     "track_id": "2.7",
@@ -4242,6 +5196,18 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2656,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2663,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.4",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2666,
     "final_decision": "Accept as Poster",
     "track_id": "2.9",
@@ -4254,8 +5220,14 @@
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 2668,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.3",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2670,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "12.5",
     "selected_themes": "AI in Circuits and Systems"
   },
@@ -4278,8 +5250,14 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
-    "paper_id": 2680,
+    "paper_id": 2679,
     "final_decision": "Accept as Poster",
+    "track_id": "5.7",
+    "selected_themes": "Quantum Computing"
+  },
+  {
+    "paper_id": 2680,
+    "final_decision": "Accept as Lecture",
     "track_id": "2.7",
     "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
   },
@@ -4297,9 +5275,15 @@
   },
   {
     "paper_id": 2685,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "15.12",
     "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2686,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.3",
+    "selected_themes": "Circuits & Systems for 6G Communication  Quantum Computing"
   },
   {
     "paper_id": 2689,
@@ -4327,7 +5311,7 @@
   },
   {
     "paper_id": 2694,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.1",
     "selected_themes": "Circuits & Systems for 6G Communication"
   },
@@ -4350,28 +5334,28 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
-    "paper_id": 2706,
-    "final_decision": "Accept as Poster",
-    "track_id": "7.3",
-    "selected_themes": "None"
-  },
-  {
     "paper_id": 2707,
     "final_decision": "Accept as Poster",
     "track_id": "10.10",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
-    "paper_id": 2709,
-    "final_decision": "Accept as Poster",
-    "track_id": "7.2",
-    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+    "paper_id": 2710,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.15",
+    "selected_themes": "Quantum Computing"
   },
   {
     "paper_id": 2711,
     "final_decision": "Accept as Poster",
     "track_id": "2.4",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2713,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.11",
+    "selected_themes": "None"
   },
   {
     "paper_id": 2714,
@@ -4386,10 +5370,34 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2718,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.15",
+    "selected_themes": "Quantum Computing"
+  },
+  {
     "paper_id": 2719,
     "final_decision": "Accept as Poster",
     "track_id": "5.5",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2720,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.7",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2722,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.1",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2725,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.1",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2729,
@@ -4401,6 +5409,12 @@
     "paper_id": 2730,
     "final_decision": "Accept as Poster",
     "track_id": "2.9",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 2731,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.2",
     "selected_themes": "None"
   },
   {
@@ -4440,6 +5454,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2743,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.14",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 2746,
     "final_decision": "Accept as Poster",
     "track_id": "1.7",
@@ -4458,9 +5478,27 @@
     "selected_themes": "Security & Trust in Circuits & Systems"
   },
   {
+    "paper_id": 2750,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.2",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2752,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.2",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2756,
     "final_decision": "Accept as Lecture",
     "track_id": "14.1",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2757,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.2",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
@@ -4494,10 +5532,22 @@
     "selected_themes": "Circuits & Systems for 6G Communication"
   },
   {
+    "paper_id": 2764,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 2765,
     "final_decision": "Accept as Lecture",
     "track_id": "1.3",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2766,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.6",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2768,
@@ -4510,6 +5560,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "14.2",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2771,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.7",
+    "selected_themes": "None"
   },
   {
     "paper_id": 2773,
@@ -4560,6 +5616,12 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2790,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.8",
+    "selected_themes": "None"
+  },
+  {
     "paper_id": 2793,
     "final_decision": "Accept as Lecture",
     "track_id": "5.5",
@@ -4569,6 +5631,18 @@
     "paper_id": 2799,
     "final_decision": "Accept as Poster",
     "track_id": "14.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2801,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.10",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 2805,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.13",
     "selected_themes": "AI in Circuits and Systems"
   },
   {
@@ -4582,6 +5656,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "2.4",
     "selected_themes": "None"
+  },
+  {
+    "paper_id": 2811,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.7",
+    "selected_themes": "AI in Circuits and Systems"
   },
   {
     "paper_id": 2813,
@@ -4638,16 +5718,40 @@
     "selected_themes": "None"
   },
   {
-    "paper_id": 2834,
+    "paper_id": 2838,
     "final_decision": "Accept as Poster",
-    "track_id": "10.2",
-    "selected_themes": "None"
+    "track_id": "6.3",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2839,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.1",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2843,
     "final_decision": "Accept as Lecture",
     "track_id": "2.7",
     "selected_themes": "AI in Circuits and Systems  Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 2844,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.7",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2845,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.2",
+    "selected_themes": "Security & Trust in Circuits & Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2846,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.16",
+    "selected_themes": "None"
   },
   {
     "paper_id": 2847,
@@ -4660,6 +5764,18 @@
     "final_decision": "Accept as Poster",
     "track_id": "7.2",
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2850,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.6",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2855,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.3",
+    "selected_themes": "None"
   },
   {
     "paper_id": 2856,
@@ -4698,6 +5814,18 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
+    "paper_id": 2870,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.3",
+    "selected_themes": "Circuits & Systems for 6G Communication  AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2871,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.3",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2872,
     "final_decision": "Accept as Lecture",
     "track_id": "1.1",
@@ -4705,8 +5833,14 @@
   },
   {
     "paper_id": 2873,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "2.1",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2875,
+    "final_decision": "Accept as Lecture",
+    "track_id": "18.3",
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
@@ -4740,8 +5874,14 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2885,
+    "final_decision": "Accept as Poster",
+    "track_id": "8.4",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 2886,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "10.12",
     "selected_themes": "Circuits & Systems for 6G Communication"
   },
@@ -4750,6 +5890,12 @@
     "final_decision": "Accept as Poster",
     "track_id": "12.4",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2889,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.8",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2890,
@@ -4762,6 +5908,12 @@
     "final_decision": "Accept as Lecture",
     "track_id": "14.1",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2892,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.8",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
   },
   {
     "paper_id": 2896,
@@ -4842,8 +5994,20 @@
     "selected_themes": "AI in Circuits and Systems"
   },
   {
-    "paper_id": 2928,
+    "paper_id": 2920,
     "final_decision": "Accept as Lecture",
+    "track_id": "8.2",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2924,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.4",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2928,
+    "final_decision": "Accept as Poster",
     "track_id": "7.16",
     "selected_themes": "None"
   },
@@ -4867,7 +6031,7 @@
   },
   {
     "paper_id": 2935,
-    "final_decision": "Accept as Lecture",
+    "final_decision": "Accept as Poster",
     "track_id": "13.1",
     "selected_themes": "None"
   },
@@ -4884,6 +6048,18 @@
     "selected_themes": "Circuits & Systems for 6G Communication  Quantum Computing"
   },
   {
+    "paper_id": 2943,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.8",
+    "selected_themes": "AI in Circuits and Systems  Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 2945,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.3",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2947,
     "final_decision": "Accept as Poster",
     "track_id": "13.3",
@@ -4891,7 +6067,7 @@
   },
   {
     "paper_id": 2948,
-    "final_decision": "Accept as Poster",
+    "final_decision": "Accept as Lecture",
     "track_id": "10.10",
     "selected_themes": "AI in Circuits and Systems"
   },
@@ -4908,6 +6084,12 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2956,
+    "final_decision": "Accept as Lecture",
+    "track_id": "6.8",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2967,
     "final_decision": "Accept as Poster",
     "track_id": "1.2",
@@ -4918,6 +6100,18 @@
     "final_decision": "Accept as Lecture",
     "track_id": "10.11",
     "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2973,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.3",
+    "selected_themes": "Security & Trust in Circuits & Systems"
+  },
+  {
+    "paper_id": 2977,
+    "final_decision": "Accept as Poster",
+    "track_id": "11.15",
+    "selected_themes": "None"
   },
   {
     "paper_id": 2979,
@@ -4932,15 +6126,51 @@
     "selected_themes": "None"
   },
   {
+    "paper_id": 2988,
+    "final_decision": "Accept as Lecture",
+    "track_id": "8.8",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
     "paper_id": 2990,
     "final_decision": "Accept as Poster",
     "track_id": "5.5",
     "selected_themes": "Circuits & Systems for 6G Communication  AI in Circuits and Systems"
   },
   {
+    "paper_id": 2994,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.17",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 2995,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.17",
+    "selected_themes": "AI in Circuits and Systems"
+  },
+  {
+    "paper_id": 2996,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.17",
+    "selected_themes": "None"
+  },
+  {
+    "paper_id": 2998,
+    "final_decision": "Accept as Poster",
+    "track_id": "6.6",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
     "paper_id": 2999,
     "final_decision": "Accept as Poster",
     "track_id": "16",
+    "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 3000,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.8",
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
   },
   {
@@ -4978,5 +6208,11 @@
     "final_decision": "Accept as Poster",
     "track_id": "16",
     "selected_themes": "Circuits & Systems for Medicine & Healthcare"
+  },
+  {
+    "paper_id": 3014,
+    "final_decision": "Accept as Lecture",
+    "track_id": "15.16",
+    "selected_themes": "AI in Circuits and Systems"
   }
 ]

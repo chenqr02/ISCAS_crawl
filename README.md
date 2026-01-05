@@ -10,14 +10,19 @@
 
 ## 使用方法
 
-### 1. 爬取数据
+### 1. 安装依赖
 
 ```bash
 pip install requests beautifulsoup4
+```
+
+### 2. 爬取数据
+
+```bash
 python scraper.py
 ```
 
-### 2. 查看可视化
+### 3. 查看可视化
 
 ```bash
 python3 -m http.server 8080
