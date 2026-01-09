@@ -13,7 +13,7 @@
 ### 1. 安装依赖
 
 ```bash
-pip install requests beautifulsoup4
+pip install requests beautifulsoup4 tqdm
 ```
 
 ### 2. 爬取数据
